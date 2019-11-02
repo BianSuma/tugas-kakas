@@ -5,7 +5,7 @@ public class C {
 	private double n2;
 	
 	public C() {
-		
+		System.out.println("Ctor di kelas " + this.getClass().getName());
 	}
 	
 	public int add() {
@@ -26,7 +26,7 @@ public class C {
 	
 	@Override
 	public String toString() {
-		return "Hello World";
+		return "toString di kelas " + this.getClass().getName();
 	}
 	
 }
